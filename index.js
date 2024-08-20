@@ -40,7 +40,6 @@ async function getApiKey() {
         return res.status(400).send({ error: 'URL is required' });
       }
 
-      // Get image from URL
       const imageResponse = await axios.get(url, { responseType: 'arraybuffer' });
       const imageBase64 = Buffer.from(imageResponse.data, 'binary').toString('base64');
 

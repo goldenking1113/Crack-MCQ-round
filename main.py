@@ -6,7 +6,6 @@ import tkinter as tk
 from pynput import keyboard
 import threading
 
-# Global variable to indicate if the tkinter window is open
 window_open = True
 
 def take_screenshot():
@@ -44,7 +43,7 @@ def display_response(response, status_label):
     status_label.config(text=f"Response: {response}")
 
 def on_press(key, status_label):
-    if key == keyboard.KeyCode(char='a'):  # Check if 'a' key is pressed
+    if key == keyboard.KeyCode(char='a'):
         try:
             status_label.config(text="Taking screenshot...")
             screenshot_base64 = take_screenshot()
@@ -70,17 +69,14 @@ def main():
     root = tk.Tk()
     root.title("Screenshot Process Status")
     
-    # Set the window to always stay on top
     root.attributes("-topmost", True)
     
     status_label = tk.Label(root, text="Press 'A' to take a screenshot...", font=("Arial", 12))
     status_label.pack(padx=20, pady=20)
     
-    # Close window button
     close_button = tk.Button(root, text="Close", command=close_window)
     close_button.pack(pady=10)
 
-    # Start the keyboard listener in a separate thread
     listener_thread = threading.Thread(target=start_keyboard_listener, args=(status_label,))
     listener_thread.daemon = True
     listener_thread.start()

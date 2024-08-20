@@ -45,11 +45,11 @@ def display_response(response, status_label):
 def on_press(key, status_label):
     if key == keyboard.KeyCode(char='a'):
         try:
-            status_label.config(text="Taking screenshot...")
+            status_label.config(text="Capturing...")
             screenshot_base64 = take_screenshot()
-            status_label.config(text="Uploading screenshot to imgbb...")
+            status_label.config(text="Extracting the question...")
             screenshot_url = upload_to_imgbb(screenshot_base64)
-            status_label.config(text="Sending URL to local server...")
+            status_label.config(text="Analyzing the question...")
             response = send_to_local_server(screenshot_url)
             display_response(response, status_label)
         except Exception as e:

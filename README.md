@@ -1,5 +1,19 @@
 # Crack-your-MCQ-round
 
+### Advantages:
+1. This is the most useful tool to clear your 1st round of MCQ.
+2. It works fine in full-screen mode as well.
+3. This tool does not affect full-screen mode.
+4. Until you close the **Crack-your-MCQ-round** pop-up window, it will work when you click "A".
+
+### Disadvantages:
+1. If you click the **Crack-your-MCQ-round** pop-up window, it will notify your test platform that you navigated to another window.  
+   **Solution:** Do not click the **Crack-your-MCQ-round** pop-up window.
+   
+2. If screen sharing is enabled on your test platform, they may see that you are using this tool.  
+   **Solution:** If you are asked for permission to share your screen, do not use this tool. I am working on a solution to this issue.
+
+
 To get started with this process you have to get API in [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
 
 After getting the API, you update it in `API.txt`.

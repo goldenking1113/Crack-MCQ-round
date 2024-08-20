@@ -67,7 +67,7 @@ def close_window():
 def main():
     global root
     root = tk.Tk()
-    root.title("Screenshot Process Status")
+    root.title("Crack-your-MCQ-round")
     
     root.attributes("-topmost", True)
     

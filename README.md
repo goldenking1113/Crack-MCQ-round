@@ -24,7 +24,7 @@ You can download the repository directly or clone it by running the following co
 ```bash
 git clone https://github.com/mahsook3/Crack-your-MCQ-round
 ```
-Once you have the repository, follow the instructions below to set up and run the tool.
+#### follow the instructions below to set up and run the tool.
 
 
 To get started with this process you have to get API in [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).

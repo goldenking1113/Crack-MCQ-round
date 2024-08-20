@@ -1,6 +1,7 @@
 # Crack-your-MCQ-round
 
 **Crack-your-MCQ-round** is a tool designed to help you effortlessly clear the first round of multiple-choice questions (MCQs) during online assessments. It captures your screen and provides answers in real-time, making the process smooth and efficient. Whether you're working in full-screen mode or need to quickly navigate through questions, this tool has got you covered.
+![Demo GIF](https://i.ibb.co/qxTCxMm/ezgif-1-162126669d.gif)
 
 ### Advantages:
 1. This is the most useful tool to clear your 1st round of MCQ.
@@ -24,12 +25,12 @@ You can download the repository directly or clone it by running the following co
 ```bash
 git clone https://github.com/mahsook3/Crack-your-MCQ-round
 ```
-#### follow the instructions below to set up and run the tool.
+#### Follow the instructions below to set up and run the tool.
 
 
 To get started with this process you have to get API in [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
 
-After getting the API, you update it in `API.txt`.
+After getting the API, you update it in `API.txt` file.
 Like below
 ```bash
 API_KEY="your_API"

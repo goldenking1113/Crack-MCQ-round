@@ -1,6 +1,6 @@
-# Crack-your-MCQ-round
+# Crack-MCQ-round
 
-**Crack-your-MCQ-round** is a tool designed to help you effortlessly clear the first round of multiple-choice questions (MCQs) during online assessments. It captures your screen and provides answers in real-time, making the process smooth and efficient. Whether you're working in full-screen mode or need to quickly navigate through questions, this tool has got you covered.
+**Crack-MCQ-round** is a tool designed to help you effortlessly clear the first round of multiple-choice questions (MCQs) during online assessments. It captures your screen and provides answers in real-time, making the process smooth and efficient. Whether you're working in full-screen mode or need to quickly navigate through questions, this tool has got you covered.
 ![Demo GIF](https://i.ibb.co/qxTCxMm/ezgif-1-162126669d.gif)
 
 ### Advantages:

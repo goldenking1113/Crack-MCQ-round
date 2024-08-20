@@ -16,6 +16,17 @@
    **Solution:** If you are asked for permission to share your screen, do not use this tool. I am working on a solution to this issue.
 
 ### How do use it
+
+#### Download or Clone the Repository
+
+You can download the repository directly or clone it by running the following command:
+
+```bash
+git clone https://github.com/mahsook3/Crack-your-MCQ-round
+```
+Once you have the repository, follow the instructions below to set up and run the tool.
+
+
 To get started with this process you have to get API in [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
 
 After getting the API, you update it in `API.txt`.
@@ -23,8 +34,6 @@ Like below
 ```bash
 API_KEY="your_API"
 ```
-
-To run the server, run the following commands:
 
 Install Node packages
 ```bash

@@ -1,5 +1,7 @@
 # Crack-your-MCQ-round
 
+**Crack-your-MCQ-round** is a tool designed to help you effortlessly clear the first round of multiple-choice questions (MCQs) during online assessments. It captures your screen and provides answers in real-time, making the process smooth and efficient. Whether you're working in full-screen mode or need to quickly navigate through questions, this tool has got you covered.
+
 ### Advantages:
 1. This is the most useful tool to clear your 1st round of MCQ.
 2. It works fine in full-screen mode as well.
@@ -26,11 +28,22 @@ node index.js
 ```
 To run AI capture, run the following commands:
 
+Create a virtual environment named .venv
 ```bash
-PS D:\vision> python -m venv .venv
-PS D:\vision> .\.venv\Scripts\Activate
-(.venv) PS D:\vision> pip install -r requirements.txt
-(.venv) PS D:\vision> python main.py
+python -m venv .venv
+```
+Activate the virtual environment
+```bash
+.\.venv\Scripts\Activate
+```
+Install the required packages from requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
+Run the main Python script
+```bash
+python main.py
 ```
 
 After running this, you will get a Crack-your-MCQ-round pop-up window on your screen that asks you to press 'A' to capture.

@@ -64,5 +64,9 @@ To get started, press `A`. It will capture the current screen and answer your MC
 3. Again, press `A` to capture the screen.
 4. This capture process repeats until you close the pop-up window.
 
+<video width="320" height="240" controls>
+  <source src="./Demo/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **Note:**  I did this just for my learning purpose. I will not be responsible for anything. Clearing aptitude rounds is difficult and not related to technical skills, which is why I made it. But this is at your own risk.

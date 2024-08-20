@@ -1,0 +1,3 @@
+API_KEY="your_API"
+
+get your api key in https://aistudio.google.com/app/apikey

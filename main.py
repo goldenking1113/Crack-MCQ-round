@@ -71,7 +71,7 @@ def main():
     
     root.attributes("-topmost", True)
     
-    status_label = tk.Label(root, text="Press 'A' to take a screenshot...", font=("Arial", 12))
+    status_label = tk.Label(root, text="Press 'A' to Capture...", font=("Arial", 12))
     status_label.pack(padx=20, pady=20)
     
     close_button = tk.Button(root, text="Close", command=close_window)

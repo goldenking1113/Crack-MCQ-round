@@ -15,7 +15,7 @@
 2. If screen sharing is enabled on your test platform, they may see that you are using this tool.  
    **Solution:** If you are asked for permission to share your screen, do not use this tool. I am working on a solution to this issue.
 
-###How do use it
+### How do use it
 To get started with this process you have to get API in [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
 
 After getting the API, you update it in `API.txt`.

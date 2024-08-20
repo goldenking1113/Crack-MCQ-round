@@ -6,7 +6,7 @@
 1. This is the most useful tool to clear your 1st round of MCQ.
 2. It works fine in full-screen mode as well.
 3. This tool does not affect full-screen mode.
-4. Until you close the **Crack-your-MCQ-round** pop-up window, it will work when you click "A".
+4. Until you close the **Crack-your-MCQ-round** pop-up window, it will work when you click `A`..
 
 ### Disadvantages:
 1. If you click the **Crack-your-MCQ-round** pop-up window, it will notify your test platform that you navigated to another window.  
@@ -19,14 +19,20 @@
 To get started with this process you have to get API in [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
 
 After getting the API, you update it in `API.txt`.
+```bash
+API_KEY="your_API"
+```
 
 To run the server, run the following commands:
 
+Install Node packages
 ```bash
 npm install
+```
+Start server
+```bash
 node index.js
 ```
-To run AI capture, run the following commands:
 
 Create a virtual environment named .venv
 ```bash

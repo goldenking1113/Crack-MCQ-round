@@ -17,7 +17,7 @@ def take_screenshot():
 def upload_to_imgbb(image_base64):
     url = "https://api.imgbb.com/1/upload"
     payload = {
-        'key': 'aea1014911ef618a11a303bcebf25ca7',
+        'key': '5b5f2087a76922dd298c1ad2feb3b7f4',
         'image': image_base64
     }
     response = requests.post(url, data=payload)
